@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Playfair+Display:wght@500&display=swap');
+
+body{
+    background-color: rgb(255, 203, 255);
+}
+.main {
+	display: grid;
+	grid-template-rows: 190px 55px 2000px 500px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+		"hd cc eg md oe ds dt"
+		". ft ft ft ft ft ."
+        ". . p p p . ."
+        "f f f f f f f";
+}
+#sd, #climatechange, #energy, #mordenization, #oceanecosystem, #diease, #donate{
+    border: 4px solid;
+	text-align: center;
+    border-radius: 12px;
+    object-fit:cover;
+    overflow:hidden;
+}
+#sd { 
+	grid-area: hd;
+    border-color: black;
+}
+#climatechange {
+    grid-area: cc;
+    border-color: rgb(219, 216, 22);
+}
+#energy {
+    grid-area: eg;
+    border-color: #BE47BC;
+}
+#mordenization {
+    grid-area: md;
+    border-color: #8B7B8B;
+}
+#oceanecosystem {
+    grid-area: oe;
+    border-color: #2675A7;
+}
+#diease {
+    grid-area: ds;
+    border-color: #98B4C5;
+}
+#donate {
+    grid-area: dt;
+    border-color: #DCE3E8;
+}
+header { 
+	grid-area: ft;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300px;
+    font-family: 'Anton', sans-serif;
+}
+#text{
+    grid-area: p;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+footer {
+    grid-area: f;
+	float: left;
+    background-color: #777;
+	width: 100%;
+    text-align: center;
+    color: white;
+}
+a:link {
+    text-decoration: none;
+    color: peru;
+}
+#youtube{
+    color: rgb(255, 0, 0);
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+#instagram{
+    color: #8a3ab9;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+#lasttext{
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+#greenpeacepicture{
+    position: absolute;
+    top:300px;
+    left: 0px;
+    width:290px;
+}
+#dwgreenpeacenews{
+    position: absolute;
+    top: 385px;
+    left: 0px;
+    width: 300px;
+    height: 190px;
+}
+#gmo{
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    width: 370px;
+}
+#co2makingcountries{
+    position: absolute;
+    top:820px;
+    left: 0px;
+    width: 350px;
+    height: 160px;
+}
+#chlorine{
+    position: absolute;
+    top: 1290px;
+    left: 0px;
+    width: 370px;
+}
+#fakenews{
+    position: absolute;
+    top: 1700px;
+    left: 0px;
+    width: 370px;
+}

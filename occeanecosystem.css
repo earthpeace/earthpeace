@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Playfair+Display:wght@500&display=swap');
+body{
+    background-color: rgb(175, 246, 255);
+}
+.main {
+	display: grid;
+	grid-template-rows: 190px 55px 2600px 500px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+		"hd cc eg md oe ds dt"
+		". ft ft ft ft ft ."
+        ". . p p p . ."
+        "f f f f f f f";
+}
+#sd, #climatechange, #energy, #mordenization, #oceanecosystem, #diease, #donate{
+    border: 4px solid;
+	text-align: center;
+    border-radius: 12px;
+    object-fit:cover;
+    overflow:hidden;
+}
+#sd { 
+	grid-area: hd;
+    border-color: black;
+}
+#climatechange {
+    grid-area: cc;
+    border-color: rgb(219, 216, 22);
+}
+#energy {
+    grid-area: eg;
+    border-color: #BE47BC;
+}
+#mordenization {
+    grid-area: md;
+    border-color: #8B7B8B;
+}
+#oceanecosystem {
+    grid-area: oe;
+    border-color: #2675A7;
+}
+#diease {
+    grid-area: ds;
+    border-color: #98B4C5;
+}
+#donate {
+    grid-area: dt;
+    border-color: #DCE3E8;
+}
+header { 
+	grid-area: ft;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300px;
+    font-family: 'Anton', sans-serif;
+}
+footer {
+    grid-area: f;
+	float: left;
+    background-color: #777;
+	width: 100%;
+    text-align: center;
+    color: white;
+}
+pre{
+    grid-area: p;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+a:link {
+    text-decoration: none;
+    color: peru;
+}
+#youtube{
+    color: rgb(255, 0, 0);
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+#instagram{
+    color: #8a3ab9;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+#lasttext{
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+#ocean{
+    position: absolute;
+    top: 240px;
+    left:0px;
+    width: 370px;
+}
+#carbontype{
+    position: absolute;
+    top: 495px;
+    left:0px;
+    width: 370px;
+}
+#oceantree{
+    position: absolute;
+    top: 800px;
+    left:0px;
+    width: 370px;
+}
+#acid{
+    position: absolute;
+    top: 1160px;
+    left:0px;
+    width: 370px;
+}
+#pH{
+    position: absolute;
+    top: 1400px;
+    left:0px;
+    width: 370px;
+}
+#coral{
+    position: absolute;
+    top: 1800px;
+    left:0px;
+    width: 370px;
+}
+#fishcoral{
+    position: absolute;
+    top: 2050px;
+    left:0px;
+    width: 370px;
+}

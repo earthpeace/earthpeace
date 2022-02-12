@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Playfair+Display:wght@500&display=swap');
+body{
+    background-color: rgb(207, 207, 207);
+}
+.main {
+	display: grid;
+	grid-template-rows: 190px 55px 2000px 500px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+		"hd cc eg md oe ds dt"
+		". ft ft ft ft ft ."
+        ". . p p p . ."
+        "f f f f f f f";
+}
+#sd, #climatechange, #energy, #mordenization, #oceanecosystem, #diease, #donate{
+    border: 4px solid;
+	text-align: center;
+    border-radius: 12px;
+    object-fit:cover;
+    overflow:hidden;
+}
+#sd { 
+	grid-area: hd;
+    border-color: black;
+}
+#climatechange {
+    grid-area: cc;
+    border-color: rgb(219, 216, 22);
+}
+#energy {
+    grid-area: eg;
+    border-color: #BE47BC;
+}
+#mordenization {
+    grid-area: md;
+    border-color: #8B7B8B;
+}
+#oceanecosystem {
+    grid-area: oe;
+    border-color: #2675A7;
+}
+#diease {
+    grid-area: ds;
+    border-color: #98B4C5;
+}
+#donate {
+    grid-area: dt;
+    border-color: #DCE3E8;
+}
+header { 
+	grid-area: ft;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300px;
+    font-family: 'Anton', sans-serif;
+}
+pre{
+    grid-area: p;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+footer {
+    grid-area: f;
+	float: left;
+    background-color: #777;
+	width: 100%;
+    text-align: center;
+    color: white;
+}
+a:link {
+    text-decoration: none;
+    color: rgb(205, 108, 63);
+}
+#youtube{
+    color: rgb(255, 0, 0);
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+#instagram{
+    color: #8a3ab9;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+#lasttext{
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+#sciencetechnology{
+    position: absolute;
+    top:230px;
+    left:0px;
+    width:335px;
+}
+#citypicture{
+    position: absolute;
+    top: 430px;
+    left:0px;
+    width: 350px;
+}
+#foodphoto{
+    position: absolute;
+    top: 730px;
+    left:0px;
+    width: 370px;
+}
+#goldenrice{
+    position: absolute;
+    top: 960px;
+    left:0px;
+    width: 370px;
+}
+#UniversityofCaen{
+    position: absolute;
+    top: 1225px;
+    left:0px;
+    width: 370px;
+}
+#Harbour-Boschmethod{
+    position: absolute;
+    top: 1770px;
+    left:0px;
+    width: 370px;
+}
